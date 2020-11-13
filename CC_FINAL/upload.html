@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>upload or search</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="hero">
+		<div class="form-box">
+			<form class="upload" action="\upload" method="post" autocomplete="off" enctype="multipart/form-data">
+				<input type="File"  class="file" name="myimage" >
+				<p><i>only jpeg and size<1MB files are accepted</i></p>
+				<button type="submit" class="new">Add file</button>
+			</form>
+			<form class="search" action="\search" autocomplete="off" method="post">
+				<input type="text" name="name1" class="input-field" placeholder="Meta " required>
+				<input type="text" name="name2" class="input-field" placeholder="type of Meta" required>
+				<input type="text" name="prop" class="input-field" placeholder="Answer" required>
+				<button type="submit" class="submit">Search</button>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
